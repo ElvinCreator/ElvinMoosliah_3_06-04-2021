@@ -14,9 +14,22 @@
       
     }
 
-    #menu1 {
+    #sectionrecherche {
         flex-direction: column-reverse;
         align-items:center;
         font-size: 15px;
         margin-right: 20%;
     }
+
+    .logoohmyfood {
+        margin-left: 5% ;
+        font-size: smaller;
+        color: brown;
+    }
+
+    .imageflottante
+    {
+        font-weight: bold;
+        margin-top: 0px;
+    }
+

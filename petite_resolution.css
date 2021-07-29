@@ -16,16 +16,18 @@
 
 
     #sectionrecherche {
-        flex-direction: column-reverse;
-        align-items:center;
+        justify-content: center;
+        align-items: center;
         font-size: 15px;
         margin-right: 20%;
     }
 
-    .fas_fa-map-marker-alt {
-        color: red;
-    }
 
+#logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
     .logoohmyfood {
         width: 40%;
         margin-left: 5% ;
@@ -37,14 +39,30 @@
         width: 50%;
         color: rebeccapurple;
     }
+
+    #button {
+        color: sandybrown;
+        width: 130%;
+    }
     .titre {
     font-weight: bold;
+
+    }
+    .filtre {
+        margin: 5px 15px 5px 0px;
+    padding-right: 5%;
+    font-size: 12px;
+    border: 1.8px solid #dddbdb;
     }
     .imageflottante
     {
         font-weight: bold;
         margin-top: 0px;
     }
+
+    label/*button */
+{border-radius: 15px 15px 15px 15px;
+margin-left: -5%;}
     
 
     #grill {

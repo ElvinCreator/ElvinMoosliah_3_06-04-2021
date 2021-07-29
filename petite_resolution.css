@@ -14,6 +14,7 @@
       
     }
 
+
     #sectionrecherche {
         flex-direction: column-reverse;
         align-items:center;
@@ -21,15 +22,42 @@
         margin-right: 20%;
     }
 
-    .logoohmyfood {
-        margin-left: 5% ;
-        font-size: smaller;
-        color: brown;
+    .fas_fa-map-marker-alt {
+        color: red;
     }
 
+    .logoohmyfood {
+        width: 40%;
+        margin-left: 5% ;
+        font-size: smaller;
+        height: auto;
+    }
+
+    #fonctionnement {
+        width: 50%;
+        color: rebeccapurple;
+    }
+    .titre {
+    font-weight: bold;
+    }
     .imageflottante
     {
         font-weight: bold;
         margin-top: 0px;
     }
+    
 
+    #grill {
+    width: 100%;
+    height: auto;
+
+}
+
+    footer
+        {
+    width: 100%;
+    flex-direction: column;
+    padding-left: 30px;
+    font-size: 0.9em;
+    margin-top: 10px;
+    }

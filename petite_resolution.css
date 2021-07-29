@@ -18,6 +18,7 @@
     #sectionrecherche {
         justify-content: center;
         align-items: center;
+        background-color: slategray;
         font-size: 15px;
         margin-right: 20%;
     }

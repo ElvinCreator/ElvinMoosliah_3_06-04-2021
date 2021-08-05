@@ -165,9 +165,13 @@
    }
 
    .new {
+        margin-top: auto;
+        margin-left: 70%;
+        width: 30%;
        border-radius: 20px;
        color: green;
        background-color: greenyellow;
+
    }
 
 

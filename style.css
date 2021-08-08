@@ -104,3 +104,41 @@ header {
       font-size: 22px;
   }
 
+  #sectionrestaurant {
+
+    display: flex;
+    text-align: center;
+    margin: 3rem 11%;
+
+  }
+
+  .boxrestaurant {
+      display: flex;
+    margin-right: 20px;
+    padding-left: 20%;
+    justify-content: space-around;
+  }
+
+.boxrestaurant figure{
+    background-color: white;
+    min-width: 100px;
+    min-height: 100px;
+    box-shadow: #c3c3c3 10px 10px 10px ;
+}
+
+.boxrestaurant figure img{
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+.boxrestaurant:hover{
+    transform: scale(1.05);
+}
+
+#grill {
+    width: 30%;
+    min-width: 100px;
+    margin-left: 15px;
+    margin-right: 15px;
+}

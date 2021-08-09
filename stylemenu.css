@@ -1,0 +1,93 @@
+body {
+    font-family: "Roboto";
+    margin: O O O O;
+    
+}
+
+header {
+    padding: 2rem 3rem;
+  }
+  #logo {
+    text-align: center;
+  }
+
+  .h3 {
+      font-size: 140px;
+      font: bold;
+      color: red;
+      justify-content: center;
+      align-items: center;
+  }
+
+  #imagerestaurant {
+    display: flex;
+  margin-right: 20px;
+  padding-left: 20%;
+  justify-content: center;
+}
+
+#imagerestaurant figure{
+  background-color: white;
+  min-width: 200px;
+  min-height: 200px;
+  box-shadow: #c3c3c3 10px 10px 10px ;
+}
+
+#imagerestaurant figure img{
+  width: 120%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 20px 20px 0px 0px;
+}
+#imagerestaurant:hover{
+  transform: scale(1.05);
+}
+.h2 {
+    border-style: outset;
+    color: chartreuse;
+    border-style: solid;
+}
+p {
+    border-radius: 1px 0px 0px 0px;
+    color: black;
+    border-style: solid;
+}
+
+
+
+#sectionentrées {
+    border-width:1px 2px 3px 2px;
+ border-style:solid dotted;
+ border-color:black;
+ padding:0 10px;
+}
+
+#sectionplats {
+
+    border-width:1px 2px 3px 2px;
+ border-style:solid dotted;
+ border-color:black ;
+ padding:0 10px;
+}
+
+#sectiondesserts {
+
+    border-width:1px 2px 3px 2px;
+ border-style:solid dotted;
+ border-color:black;
+ padding:0 10px;
+
+}
+
+
+
+footer
+        {
+    width: 100%;
+    flex-direction: column;
+    padding-left: 30px;
+    color: white;
+    font-size: 0.9em;
+    margin-top: 10px;
+    background-color:gray;
+    }

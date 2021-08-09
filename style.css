@@ -146,3 +146,29 @@ header {
     color: chartreuse;
     height: 20%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+footer
+        {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    padding-top: 20px;
+    color: white;
+    font-size: 0.9em;
+    margin-top: 20px;
+    background-color:gray;
+    }

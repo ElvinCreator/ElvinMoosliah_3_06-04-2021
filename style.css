@@ -105,7 +105,6 @@ header {
   }
 
   #sectionrestaurant {
-
     display: flex;
     text-align: center;
     margin: 3rem 11%;
@@ -121,14 +120,14 @@ header {
 
 .boxrestaurant figure{
     background-color: white;
-    min-width: 100px;
-    min-height: 100px;
+    min-width: 200px;
+    min-height: 200px;
     box-shadow: #c3c3c3 10px 10px 10px ;
 }
 
 .boxrestaurant figure img{
-    width: 100%;
-    height: 140px;
+    width: 120%;
+    height: 200px;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
 }
@@ -141,4 +140,9 @@ header {
     min-width: 100px;
     margin-left: 15px;
     margin-right: 15px;
+}
+
+.new {
+    color: chartreuse;
+    height: 20%;
 }

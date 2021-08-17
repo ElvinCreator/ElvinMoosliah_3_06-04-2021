@@ -45,6 +45,9 @@ header {
   }
 
   #fonctionnement {
+      display: flex;
+      justify-content: center;
+      width: 100%;
       margin: 3rem 11%;
 
   }
@@ -53,17 +56,21 @@ header {
       font-weight: bold;
       margin-left: 0;
       margin-bottom: 2rem;
+      padding-left: 10%;
+      height: auto;
+      padding-left: 50px;
 
   }
 
   .boxfiltres {
+      width: 100%;
       display: flex;
       justify-content: center;
       align-items: center;
   }
 
   .filtre {
-      display: flex;
+      display: inline-block;
       align-items: center;
       width: 60%;
       margin: 0 1.5rem;
@@ -78,6 +85,8 @@ header {
       position: absolute;
       z-index: 2;
       margin: -15px;
+      display: flex;
+      align-items: center;
   }
 
   .block {
@@ -92,11 +101,13 @@ header {
   }
   
   .block i {
+      width: 100%;
       color:#7E7E7E;
   }
 
   .block p {
       font-weight: bold;
+      font-size: 30px;
   }
 
   .mobile {
@@ -119,6 +130,7 @@ header {
   }
 
 .boxrestaurant figure{
+    width: 100%;
     background-color: white;
     min-width: 200px;
     min-height: 200px;
@@ -130,6 +142,8 @@ header {
     height: 200px;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .boxrestaurant:hover{
     transform: scale(1.05);
@@ -145,6 +159,14 @@ header {
 .new {
     color: chartreuse;
     height: 20%;
+}
+
+.btn {
+    color: white;
+    text-decoration: none;
+    background-color: palevioletred;
+    box-shadow: grey;
+    padding: 1.2rem;
 }
 
 

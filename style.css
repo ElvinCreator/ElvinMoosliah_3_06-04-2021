@@ -135,10 +135,9 @@ header {
 
 .boxrestaurant figure{
     width: 100%;
-    background-color: white;
     min-width: 200px;
     min-height: 200px;
-    box-shadow: #c3c3c3 10px 10px 10px ;
+    box-shadow: rgb (0 0 0, 0.5) 10px 10px 10px;
     align-items: center;
     justify-content: center;
     
@@ -176,6 +175,10 @@ header {
     margin-right: 15px;
 }
 
+#grill .boxrestaurant
+{
+    display: flex;
+}
 .new {
     width: 30%;
     color: white;
@@ -193,6 +196,10 @@ header {
     background-color: palevioletred;
     box-shadow: grey;
     padding: 1.2rem;
+}
+
+a {
+    text-decoration: none;
 }
 
 

@@ -70,6 +70,12 @@ p {
     
 }
 
+#menu {
+
+  border-radius: 10px 20px 10px 20px;
+  border-style: solid;
+}
+
 
 
 #sectionentrées {

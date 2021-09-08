@@ -51,7 +51,7 @@ header {
 }
 h2 {
     border-style:inherit;
-    color: rgb(5, 5, 4);
+    color: grey;
     text-decoration: underline greenyellow;
     
   
@@ -59,7 +59,7 @@ h2 {
 p {
     border-radius: 20px 20px 20px 20px;
     color: black;
-    border-style: solid;
+    border-style: inherit;
     background-color: white;
     min-width: 40px;
     min-height: 40px;
@@ -75,19 +75,21 @@ p {
 #menu {
 
   border-radius: 20px 20px 20px 20px;
-  border-style: solid;
+  border-style:none;
   display: flex;
   align-items: center;
   justify-content: center;
   padding-right: 120px;
   margin: 20px;
+  background-color: lightgray;
 }
+
 
 
 
 #sectionentrées {
   border-radius: 20px 20px 20px 20px;
- border-style:solid;
+ border-style:initial;
  border-color: grey;
  padding:0 10px;
  margin: 20px;
@@ -96,15 +98,16 @@ p {
 #sectionplats {
 
   border-radius: 20px 20px 20px 20px;
- border-style:solid;
+ border-style:initial;
  border-color:grey ;
  padding:0 10px;
+ margin: 20px
 }
 
 #sectiondesserts {
 
   border-radius:20px 20px 20px 20px;
-  border-style:solid;
+  border-style:initial;
   border-color: grey ;
   padding:0 10px;
   margin: 20px;

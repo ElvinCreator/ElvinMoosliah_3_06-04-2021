@@ -56,20 +56,26 @@ h2 {
     
   
 }
-p {
+figcaption {
+
+
     border-radius: 20px 20px 20px 20px;
-    color: black;
+    color:black;
     border-style: inherit;
     background-color: white;
-    min-width: 40px;
-    min-height: 40px;
+    width: 120px;
     box-shadow: #c3c3c3 10px 10px 10px ;
-    align-items: center;
     justify-content: center;
-    margin: 12px 25px 12px 25px;
-    padding: 10px 18px 10px 18px;
-    padding-top: 14px;
+    padding-right: 14px;
+    padding-left: 14px;
+    flex-direction: column;
     
+}
+
+h4 {
+ 
+  
+
 }
 
 #menu {
@@ -80,38 +86,17 @@ p {
   align-items: center;
   justify-content: center;
   padding-right: 120px;
-  margin: 20px;
   background-color: lightgray;
 }
 
 
 
 
-#sectionentrées {
+.carte {
+ max-width: 360px;
   border-radius: 20px 20px 20px 20px;
  border-style:initial;
  border-color: grey;
- padding:0 10px;
- margin: 20px;
-}
-
-#sectionplats {
-
-  border-radius: 20px 20px 20px 20px;
- border-style:initial;
- border-color:grey ;
- padding:0 10px;
- margin: 20px
-}
-
-#sectiondesserts {
-
-  border-radius:20px 20px 20px 20px;
-  border-style:initial;
-  border-color: grey ;
-  padding:0 10px;
-  margin: 20px;
-
 }
 
 

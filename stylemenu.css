@@ -63,7 +63,6 @@ figcaption {
     color:black;
     border-style: inherit;
     background-color: white;
-    width: 120px;
     box-shadow: #c3c3c3 10px 10px 10px ;
     justify-content: center;
     padding-right: 14px;
@@ -72,10 +71,16 @@ figcaption {
     
 }
 
-h4 {
- 
-  
+#entrées {
+  margin-right: 20px;
+}
 
+#plats {
+  margin-right: 20px;
+}
+
+#desserts {
+  max-width: 200px;
 }
 
 #menu {
@@ -97,6 +102,7 @@ h4 {
   border-radius: 20px 20px 20px 20px;
  border-style:initial;
  border-color: grey;
+
 }
 
 

@@ -41,9 +41,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 40px;
+    border-radius: 50px;
     background-color: purple;
-    font-size: 12px;
+    font-size: 20px;
     color: white;
     
 }
@@ -72,10 +72,16 @@ footer
     background-color:gray;
     }
 
-    .logofooter {
-        width: 30%;
+    footer p {
         display: flex;
         justify-content: center;
+    }
+
+    .logofooter {
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         color: white;
         
     }

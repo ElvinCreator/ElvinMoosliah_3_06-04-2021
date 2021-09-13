@@ -223,16 +223,6 @@ p {
 
 }
 
-
-
-
-
-
-
-
-
-
-
 footer
         {
     display: flex;
@@ -246,4 +236,12 @@ footer
     font-size: 0.9em;
     margin-top: 20px;
     background-color:gray;
+    }
+
+    .logofooter {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        color: white;
+        
     }

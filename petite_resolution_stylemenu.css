@@ -25,16 +25,29 @@
         margin-left: 15px;
     }
 
-button {
-    height: 50px;
-    padding-right: 50px;
-    padding-left: 50px;
-    border-radius: 20px;
-    background-color: palevioletred;
-    box-shadow: blueviolet;
+
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    background-color: purple;
     font-size: 12px;
     color: white;
-    width: 100%;
+    
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.carte {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
@@ -48,5 +61,15 @@ footer
     margin-top: 10px;
     background-color:gray;
     }
+
+    .logofooter {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        color: white;
+        
+    }
+
+    
 
 }

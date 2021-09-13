@@ -54,6 +54,8 @@
         margin-left: 5% ;
         font-size: smaller;
         height: auto;
+        display: flex;
+        justify-content: center;
     }
 
     h3 {
@@ -65,12 +67,14 @@
         width: 50%;
         color: rebeccapurple;
         box-shadow: crimson;
+        flex-direction: column;
     }
 
     #boxfiltres {
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-direction: column;
     
     }
     .filtre {
@@ -138,12 +142,14 @@
     min-width: 200px;
     margin-left: 15px;
     margin-right: 15px;
+    flex-direction: column;
 }
 
 .boxrestaurant figure{
     
     min-width: 200px;
-    box-shadow: #c3c3c3 10px 10px 10px ;
+    flex-direction: column;
+
 }
 
 
@@ -153,6 +159,7 @@
     display: flex;
     justify-content: center;
     border-radius: 20px 20px 0px 0px;
+    flex-direction: column;
 }
 .box figcaption{
     margin-left: 15px;
@@ -197,13 +204,23 @@
 
     footer
         {
-    width: 100%;
-    flex-direction: column;
-    padding-left: 30px;
-    color: white;
-    font-size: 0.7em;
-    margin-top: 10px;
-    background-color:gray;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            flex-direction: column;
+            padding-left: 30px;
+            color: white;
+            font-size: 0.7em;
+            margin-top: 10px;
+            background-color:gray;
+    }
+
+    .logofooter {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        color: white;
+        
     }
 
 }

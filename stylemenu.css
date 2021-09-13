@@ -26,7 +26,6 @@ h3 {
 #imagerestaurant {
   display: flex;
 margin-right: 20px;
-padding-left: 20%;
 justify-content: center;
 align-items: center;
 }
@@ -149,9 +148,18 @@ footer
   }
 
   .logofooter {
-    width: 30%;
+    width: 50%;
     display: flex;
     justify-content: center;
+    align-items: center;
     color: white;
-    
+    margin-left: 120px;
+    padding-bottom: 20px;
+}
+
+footer p {
+
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
 }

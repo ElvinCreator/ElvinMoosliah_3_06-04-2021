@@ -215,11 +215,18 @@
             background-color:gray;
     }
 
+    footer p {
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+
     .logofooter {
         width: 30%;
         display: flex;
         justify-content: center;
         color: white;
+        margin-left: 100px;
         
     }
 

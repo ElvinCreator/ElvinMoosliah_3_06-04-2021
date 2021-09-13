@@ -21,6 +21,8 @@ h3 {
     font-weight: bolder;
     font-style: italic;
     padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 #imagerestaurant {
@@ -28,6 +30,7 @@ h3 {
 margin-right: 20px;
 justify-content: center;
 align-items: center;
+margin-top: 20px;
 }
 
 #imagerestaurant figure{
@@ -99,11 +102,13 @@ border-color: grey;
 p {
   font-weight: bold;
   margin: 12px;
+  padding-top: 4px;
 }
 
 h4 {
   font-weight: lighter;
   margin: 12px;
+  padding-bottom: 4px;
 }
 
 .btn {
@@ -114,7 +119,9 @@ h4 {
   background-color:purple;
   border-radius: 20px  20px 20px 20px;
   box-shadow: grey;
-  margin-left: 40%;
+  margin-left: 45%;
+  margin-top: 20px;
+
   
 }
 
@@ -154,7 +161,8 @@ footer
     align-items: center;
     color: white;
     margin-left: 120px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
+    padding-top: 20px;
 }
 
 footer p {

@@ -125,6 +125,13 @@ h4 {
   
 }
 
+.prix {
+  display: flex;
+  justify-content: flex-end;
+  font: bold;
+  color: black;
+}
+
 
 
 .btn:hover {

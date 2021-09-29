@@ -2,33 +2,32 @@ body {
     font-family: "Roboto";
     max-width: 100%;
     overflow-x: hidden;
-    
 }
 
 header {
     padding: 2rem 3rem;
-  }
-  
-  #logo {
+}
+
+#logo {
     text-align: center;
-  }
+}
+
 #sectionrecherche {
     text-align: center;
     background-color: rgb(245, 244, 244);
-    }
+}
 
- .h1 {
+.h1 {
     margin: 2rem 0;
     font-weight: 900;
     font-size: 28px;
 }
 
- .h2 {
-
+.h2 {
     margin: 0 0 2rem 0;
     font-size: 20px;
     font-weight: lighter
-} 
+}
 
 .localisation {
     background-color: lightgrey;
@@ -37,127 +36,121 @@ header {
     font-weight: bold;
     color: #353535;
     font-size: 20px;
-
 }
+
 .localisation i {
     display: flex;
     justify-content: center;
     padding-right: 1.5rem;
     font-size: 20px;
     color: black;
-    padding: 20px; 
-  }
+    padding: 20px;
+}
 
-  #fonctionnement {
-      display: flex;
-      justify-content: center;
-      width: 100%;
-      margin: 3rem 11%;
+#fonctionnement {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 3rem 11%;
+}
 
-  }
+h3 {
+    font-weight: bold;
+    margin-left: 0;
+    margin-bottom: 2rem;
+    padding-left: 10%;
+    height: auto;
+    padding-left: 50px;
+}
 
-  h3 {
-      font-weight: bold;
-      margin-left: 0;
-      margin-bottom: 2rem;
-      padding-left: 10%;
-      height: auto;
-      padding-left: 50px;
+.boxfiltres {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-  }
+.filtre {
+    display: inline-block;
+    align-items: center;
+    width: 70%;
+    margin: 0 1.5rem;
+    position: relative;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
 
-  .boxfiltres {
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-  }
+.number {
+    background-color: purple;
+    border-radius: 100%;
+    padding: 5px 10px 5px 10px;
+    color: white;
+    position: absolute;
+    z-index: 2;
+    margin: -15px;
+    display: flex;
+    justify-content: space-around;
+}
 
-  .filtre {
-      display: inline-block;
-      align-items: center;
-      width: 70%;
-      margin: 0 1.5rem;
-      position: relative;
-      flex-direction: column;
-      padding-bottom: 20px;
-  }
+.block {
+    display: flex;
+    align-items: center;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    width: 100%;
+    box-shadow: 0px 2px 15px lightgray;
+    z-index: 1;
+    position: relative;
+    margin-bottom: 20px;
+}
 
-  .number {
-      background-color: purple;
-      border-radius: 100%;
-      padding: 5px 10px 5px 10px;
-      color: white;
-      position: absolute;
-      z-index: 2;
-      margin: -15px;
-      display: flex;
-      justify-content: space-around;
-    
-      
-  }
+.block i {
+    width: 100%;
+    color: #7E7E7E;
+}
 
-  .block {
-      display: flex;
-      align-items: center;
-      border-radius: 1.5rem;
-      padding: 1rem;
-      width: 100%;
-      box-shadow: 0px 2px 15px lightgray;
-      z-index: 1;
-      position: relative;
-      margin-bottom: 20px;
-  }
-  
-  .block i {
-      width: 100%;
-      color:#7E7E7E;
-  }
+.block p {
+    font-weight: bold;
+    font-size: 30px;
+}
 
-  .block p {
-      font-weight: bold;
-      font-size: 30px;
-  }
+.mobile {
+    padding: 0 22px 0 25px;
+    font-size: 22px;
+}
 
-  .mobile {
-      padding: 0 22px 0 25px;
-      font-size: 22px;
-  }
-
-  #sectionrestaurant {
+#sectionrestaurant {
     display: flex;
     text-align: center;
     margin: 3rem 11%;
     align-items: center;
     position: relative;
     padding: 2rem;
+}
 
-  }
-
-  .boxrestaurant {
-      display: flex;
+.boxrestaurant {
+    display: flex;
     justify-content: space-around;
-  }
+}
 
-.boxrestaurant figure{
+.boxrestaurant figure {
     width: 100%;
     min-width: 200px;
     min-height: 200px;
     box-shadow: rgb (0 0 0, 0.5) 10px 10px 10px;
     justify-content: space-between;
     padding-right: 50px;
-    
-    
 }
 
-.boxrestaurant figure img{
+.boxrestaurant figure img {
     width: 90%;
     height: 250px;
     object-fit: cover;
     border-radius: 20px 20px 20px 20px;
     color: indianred;
 }
-.boxrestaurant figure img:hover{
+
+.boxrestaurant figure img:hover {
     transform: scale(1.05);
 }
 
@@ -167,7 +160,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .boxfiltres {
@@ -177,29 +169,27 @@ header {
     color: black;
 }
 
-
 .grill {
     margin: 10px;
 }
 
-.boxrestaurant .grill
-{
+.boxrestaurant .grill {
     display: flex;
 }
+
 .new {
     color: green;
     background-color: chartreuse;
     height: 120%;
     text-decoration: none;
     margin-top: 20px;
- 
 }
 
 .btn {
     color: white;
     text-decoration: none;
     font-size: 100%;
-    background-color:purple;
+    background-color: purple;
     box-shadow: rgb(235, 230, 230);
     padding: 1.2rem;
     border-radius: 23px 23px 23px 23px;
@@ -209,8 +199,8 @@ a {
     text-decoration: none;
     font-size: 16px;
     font: bold;
-    font:italic;
-    color:white;
+    font: italic;
+    color: white;
 }
 
 p {
@@ -220,11 +210,9 @@ p {
     color: black;
     font-weight: bold;
     padding-bottom: 20px;
-
 }
 
-footer
-        {
+footer {
     display: flex;
     width: 100%;
     flex-direction: column;
@@ -235,13 +223,12 @@ footer
     color: white;
     font-size: 0.9em;
     margin-top: 20px;
-    background-color:gray;
-    }
+    background-color: gray;
+}
 
-    .logofooter {
-        width: 30%;
-        display: flex;
-        justify-content: center;
-        color: white;
-        
-    }
+.logofooter {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    color: white;
+}

@@ -1,16 +1,53 @@
+/* Configuration */
+
 body {
+    margin: 0;
+    padding: 0 5px;
     font-family: "Roboto";
     max-width: 100%;
-    overflow-x: hidden;
 }
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    border: 0;
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+    font: italic;
+}
+
+@media screen and (min-width: 700px) {
+    .container {
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+
+
+/* Header */
 
 header {
-    padding: 2rem 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
 }
 
-#logo {
-    text-align: center;
+header img {
+    width: 200px;
 }
+
+
+/* Section recherche */
 
 #sectionrecherche {
     text-align: center;
@@ -26,13 +63,13 @@ header {
 .h2 {
     margin: 0 0 2rem 0;
     font-size: 20px;
-    font-weight: lighter
+    font-weight: lighter;
 }
 
 .localisation {
     background-color: lightgrey;
     padding: 1.3rem 0;
-    box-shadow: inset 0px 2px 7px #DFDFDF;
+    box-shadow: inset 0px 2px 7px #dfdfdf;
     font-weight: bold;
     color: #353535;
     font-size: 20px;
@@ -47,110 +84,96 @@ header {
     padding: 20px;
 }
 
-#fonctionnement {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin: 3rem 11%;
-}
 
-h3 {
-    font-weight: bold;
-    margin-left: 0;
-    margin-bottom: 2rem;
-    padding-left: 10%;
-    height: auto;
-    padding-left: 50px;
-}
+/* Fonctionnement */
 
-.boxfiltres {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#boxfiltres {
+    width: 90%;
+    max-width: 350px;
+    margin: 0 auto;
 }
 
 .filtre {
-    display: inline-block;
-    align-items: center;
-    width: 70%;
-    margin: 0 1.5rem;
     position: relative;
-    flex-direction: column;
-    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+    box-shadow: 0px 2px 15px lightgray;
+    border-radius: 20px;
 }
 
 .number {
+    position: absolute;
     background-color: purple;
     border-radius: 100%;
     padding: 5px 10px 5px 10px;
     color: white;
-    position: absolute;
     z-index: 2;
-    margin: -15px;
-    display: flex;
-    justify-content: space-around;
+    left: -15px;
 }
 
-.block {
-    display: flex;
-    align-items: center;
-    border-radius: 1.5rem;
-    padding: 1rem;
-    width: 100%;
-    box-shadow: 0px 2px 15px lightgray;
-    z-index: 1;
-    position: relative;
-    margin-bottom: 20px;
-}
 
-.block i {
-    width: 100%;
-    color: #7E7E7E;
-}
+/* Restaurant */
 
-.block p {
-    font-weight: bold;
-    font-size: 30px;
-}
-
-.mobile {
-    padding: 0 22px 0 25px;
-    font-size: 22px;
-}
-
-#sectionrestaurant {
-    display: flex;
-    text-align: center;
-    margin: 3rem 11%;
-    align-items: center;
-    position: relative;
-    padding: 2rem;
-}
+#sectionrestaurant {}
 
 .boxrestaurant {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
 }
 
-.boxrestaurant figure {
+@media screen and (min-width: 700px) {
+    .boxrestaurant {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    article.resto {
+        margin-right: 2rem;
+    }
+}
+
+article.resto {
+    border-radius: 18px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 2rem;
+    max-width: 400px;
+}
+
+article.resto a {
+    color: black;
+}
+
+.resto-image {
+    position: relative;
+}
+
+.resto-image img {
     width: 100%;
-    min-width: 200px;
-    min-height: 200px;
-    box-shadow: rgb (0 0 0, 0.5) 10px 10px 10px;
-    justify-content: space-between;
-    padding-right: 50px;
-}
-
-.boxrestaurant figure img {
-    width: 90%;
-    height: 250px;
+    height: 260px;
     object-fit: cover;
-    border-radius: 20px 20px 20px 20px;
-    color: indianred;
+    border-radius: 18px 18px 0 0;
 }
 
-.boxrestaurant figure img:hover {
+.resto-image .badge {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    padding: 10px;
+    background: #99e2d0;
+    color: green;
+    border-radius: 5px;
+}
+
+.resto-description {
+    padding: 1rem;
+}
+
+.resto-description h3 {
+    margin: 0.5rem 0;
+}
+
+article.resto img:hover {
     transform: scale(1.05);
 }
 
@@ -160,21 +183,6 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.boxfiltres {
-    display: flex;
-    justify-content: center;
-    border-radius: 20px 20px 20px;
-    color: black;
-}
-
-.grill {
-    margin: 10px;
-}
-
-.boxrestaurant .grill {
-    display: flex;
 }
 
 .new {
@@ -193,14 +201,6 @@ h3 {
     box-shadow: rgb(235, 230, 230);
     padding: 1.2rem;
     border-radius: 23px 23px 23px 23px;
-}
-
-a {
-    text-decoration: none;
-    font-size: 16px;
-    font: bold;
-    font: italic;
-    color: white;
 }
 
 p {

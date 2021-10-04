@@ -177,6 +177,7 @@
         width: 30%;
         display: flex;
         justify-content: center;
+        align-items: center;
         color: white;
         margin-left: 100px;
     }

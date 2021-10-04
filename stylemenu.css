@@ -1,20 +1,20 @@
 body {
-  font-family: "Roboto";
-  margin: O O O O;
-  overflow-x: hidden;
-  
+    font-family: "Roboto";
+    margin: O O O O;
+    overflow-x: hidden;
 }
 
 header {
-  padding: 2rem 3rem;
+    padding: 2rem 3rem;
 }
+
 #logo {
-  text-align: center;
+    text-align: center;
 }
 
 h3 {
-  display: flex;
-  text-align: center;
+    display: flex;
+    text-align: center;
     font-size: 46px;
     justify-content: center;
     align-items: center;
@@ -26,142 +26,132 @@ h3 {
 }
 
 #imagerestaurant {
-  display: flex;
-margin-right: 20px;
-justify-content: center;
-align-items: center;
-margin-top: 20px;
+    display: flex;
+    margin-right: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
 }
 
-#imagerestaurant figure{
-display: flex;
-margin: 20px 20px 20px 20px;
-box-shadow: #c3c3c3 10px 10px 10px ;
-align-items: center;
-justify-content: center;
-border-radius: 20px 20px 20px 20px;
+#imagerestaurant figure {
+    display: flex;
+    margin: 20px 20px 20px 20px;
+    box-shadow: #c3c3c3 10px 10px 10px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px 20px 20px 20px;
 }
 
-#imagerestaurant figure img{
-width: 140%;
-height: 260px;
-object-fit: cover;
-border-radius: 20px 20px 20px 20px;
+#imagerestaurant figure img {
+    width: 140%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 20px 20px 20px 20px;
 }
-#imagerestaurant:hover{
-transform: scale(1.05);
+
+#imagerestaurant:hover {
+    transform: scale(1.05);
 }
+
 h2 {
-  border-style:inherit;
-  color: grey;
-  text-decoration: underline greenyellow;
-  
-
+    border-style: inherit;
+    color: grey;
+    text-decoration: underline greenyellow;
 }
+
 figcaption {
-
-
-  border-radius: 20px 20px 20px 20px;
-  color:black;
-  border-style: inherit;
-  background-color: white;
-  box-shadow: #c3c3c3 10px 10px 10px ;
-  justify-content: center;
-  padding-right: 14px;
-  padding-left: 14px;
-  flex-direction: column;
-  
+    border-radius: 20px 20px 20px 20px;
+    color: black;
+    border-style: inherit;
+    background-color: white;
+    box-shadow: #c3c3c3 10px 10px 10px;
+    justify-content: center;
+    padding-right: 14px;
+    padding-left: 14px;
+    flex-direction: column;
 }
 
 #menu {
-
-border-radius: 20px 20px 20px 20px;
-border-style:none;
-display: flex;
-align-items: center;
-justify-content: center;
-padding-right: 120px;
-background-color: lightgray;
+    width: 100%;
+    border-radius: 20px 20px 20px 20px;
+    border-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
 }
-
 
 #entrées {
-margin-right: 20px;
+    margin-right: 20px;
 }
+
 #plats {
-margin-right: 20px;
+    margin-right: 20px;
 }
 
 .carte {
-max-width: 360px;
-border-radius: 20px 20px 20px 20px;
-border-style:initial;
-border-color: grey;
+    max-width: 360px;
+    border-radius: 20px 20px 20px 20px;
+    border-style: initial;
+    border-color: grey;
 }
 
 p {
-  font-weight: bold;
-  margin: 12px;
-  padding-top: 4px;
+    font-weight: bold;
+    margin: 12px;
+    padding-top: 4px;
 }
 
 h4 {
-  font-weight: lighter;
-  margin: 12px;
-  padding-bottom: 4px;
+    font-weight: lighter;
+    margin: 12px;
+    padding-bottom: 4px;
 }
 
 .btn {
-  display: flex;
-  justify-content: center;
-  font-size: 30px;
-  color: white;
-  background-color:purple;
-  border-radius: 20px  20px 20px 20px;
-  box-shadow: grey;
-  margin-left: 45%;
-  margin-top: 20px;
-
-  
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+    background-color: purple;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: grey;
+    margin-left: 45%;
+    margin-top: 20px;
 }
 
 .prix {
-  display: flex;
-  justify-content: flex-end;
-  font: bold;
-  color: black;
+    display: flex;
+    justify-content: flex-end;
+    font: bold;
+    color: black;
 }
 
-
-
 .btn:hover {
-  background-color: tomato;
-  color: black;
+    background-color: tomato;
+    color: black;
 }
 
 a {
-text-decoration: none;
-color: white;
+    text-decoration: none;
+    color: white;
 }
 
+footer {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding-left: 30px;
+    color: white;
+    font-size: 0.9em;
+    margin-top: 20px;
+    background-color: gray;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
 
-
-footer
-      {
-  display: flex;
-  width: 100%;
-  flex-direction: column;
-  padding-left: 30px;
-  color: white;
-  font-size: 0.9em;
-  margin-top: 20px;
-  background-color:gray;
-  padding-top: 20px;
-  justify-content: center;
-  align-items: center;
-  }
-
-  .logofooter {
+.logofooter {
     width: 50%;
     display: flex;
     justify-content: center;
@@ -173,8 +163,7 @@ footer
 }
 
 footer p {
-
-  display: flex;
-  justify-content: center;
-  font-size: 25px;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
 }

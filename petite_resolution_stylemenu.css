@@ -39,6 +39,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        width: 100%;
     }
     .carte {
         display: flex;
@@ -53,7 +54,6 @@
         margin-top: 20px;
     }
     .figcaption {
-        box-sizing: content-box;
         width: 100%;
     }
     footer {

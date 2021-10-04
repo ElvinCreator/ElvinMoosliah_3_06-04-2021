@@ -51,7 +51,7 @@
     }
     #fonctionnement {
         width: 50%;
-        color: rebeccapurple;
+        color: rgb(183, 100, 220);
         flex-direction: column;
     }
     #boxfiltres {
@@ -67,7 +67,7 @@
     .number {
         margin: 10px;
         width: 20px;
-        background: #9356DC;
+        background: rgb(183, 100, 220);
         height: 20px;
         position: absolute;
         color: white;
@@ -86,7 +86,7 @@
         padding-left: 48px;
         border-radius: 15px;
         background-color: palevioletred;
-        box-shadow: blueviolet;
+        box-shadow: rgb(183, 100, 220);
         font-size: 12px;
         color: white;
         width: 80%;

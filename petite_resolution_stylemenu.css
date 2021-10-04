@@ -31,7 +31,8 @@
         justify-content: center;
         align-items: center;
         border-radius: 50px;
-        background-color: purple;
+        background-color: rgb(183, 100, 220);
+        box-shadow: rgb(196, 100, 220);
         font-size: 20px;
         color: white;
     }
@@ -52,6 +53,10 @@
         justify-content: center;
         align-items: center;
         margin-top: 20px;
+    }
+    .prix {
+        font-weight: bold;
+        color: black;
     }
     .figcaption {
         width: 100%;

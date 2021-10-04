@@ -105,7 +105,7 @@ header img {
 
 .number {
     position: absolute;
-    background-color: purple;
+    background-color: rgb(183, 100, 220);
     border-radius: 100%;
     padding: 5px 10px 5px 10px;
     color: white;
@@ -197,10 +197,15 @@ article.resto img:hover {
     color: white;
     text-decoration: none;
     font-size: 100%;
-    background-color: purple;
+    background-color: rgb(183, 100, 220);
     box-shadow: rgb(235, 230, 230);
     padding: 1.2rem;
     border-radius: 23px 23px 23px 23px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 p {

@@ -16,6 +16,7 @@
         display: flex;
         justify-content: left;
         background-color: lightgray;
+        display: inline-block;
     }
     #section {
         width: 30%;
@@ -58,8 +59,10 @@
         font-weight: bold;
         color: black;
     }
-    .figcaption {
+    .span {
         width: 100%;
+        border-radius: 14px 14px 14px 14px;
+        background-color: white;
     }
     footer {
         width: 100%;

@@ -59,9 +59,8 @@ h2 {
     text-decoration: underline greenyellow;
 }
 
-figcaption {
+span {
     width: 100%;
-    border-radius: 20px 20px 20px 20px;
     color: black;
     border-style: inherit;
     background-color: white;

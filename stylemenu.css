@@ -59,17 +59,16 @@ h2 {
     text-decoration: underline greenyellow;
 }
 
-span {
+#rubrique {
     width: 100%;
     color: black;
     border-style: inherit;
     background-color: white;
     box-shadow: #c3c3c3 10px 10px 10px;
-    justify-content: center;
-    padding-right: 14px;
-    padding-left: 14px;
+    display: flex;
+    justify-content: space-between;
     flex-direction: column;
-    display: inline-block;
+    border-radius: 14px 14px 14px 14px;
 }
 
 #menu {
@@ -121,11 +120,16 @@ h4 {
     margin-top: 20px;
 }
 
-.prix {
+#prix {
     display: flex;
-    justify-content: flex-end;
+    justify-content: right;
     font: bold;
     color: black;
+}
+
+#icone {
+    display: flex;
+    justify-content: center;
 }
 
 .btn:hover {

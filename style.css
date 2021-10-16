@@ -113,6 +113,10 @@ header img {
     left: -15px;
 }
 
+.container {
+    border-spacing: 10px 1rem;
+}
+
 
 /* Restaurant */
 

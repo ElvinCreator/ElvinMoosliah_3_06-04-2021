@@ -132,8 +132,6 @@ h4 {
 
 #prix {
     position: absolute;
-    display: inline-flex;
-    justify-content: flex-end;
 }
 
 #prix span {

@@ -24,7 +24,6 @@ h3 {
 
 #imagerestaurant {
     display: flex;
-    margin-right: 20px;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
@@ -33,17 +32,14 @@ h3 {
 #imagerestaurant figure {
     display: flex;
     margin: 20px 20px 20px 20px;
-    box-shadow: #c3c3c3 10px 10px 10px;
     align-items: center;
     justify-content: center;
     border-radius: 20px 20px 20px 20px;
 }
 
 #imagerestaurant figure img {
-    width: 140%;
     height: 260px;
     object-fit: cover;
-    border-radius: 20px 20px 20px 20px;
 }
 
 #imagerestaurant:hover {
@@ -116,15 +112,8 @@ h4 {
 }
 
 .btn {
-    display: flex;
     justify-content: center;
-    font-size: 35px;
-    color: white;
-    background-color: rgb(183, 100, 220);
-    border-radius: 20px 20px 20px 20px;
-    box-shadow: grey;
-    margin-left: 45%;
-    margin-top: 20px;
+    padding: 1.2rem;
 }
 
 #prix {
@@ -206,6 +195,7 @@ footer p {
         box-shadow: rgb(196, 100, 220);
         font-size: 25px;
         color: white;
+        border-radius: 23px 23px 23px 23px;
     }
     #menu {
         display: flex;

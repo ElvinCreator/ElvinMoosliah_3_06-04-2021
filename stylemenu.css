@@ -115,12 +115,12 @@ h4 {
     padding: 1.2rem;
 }
 
-#prix {
+#price {
     display: flex;
     align-items: flex-end;
 }
 
-#prix span {
+#price span {
     font: bold;
     color: black;
 }
@@ -232,7 +232,7 @@ footer p {
         width: 150%;
         margin: auto;
     }
-    span .prix {
+    span .price {
         font-weight: bold;
         color: black;
     }
@@ -249,7 +249,7 @@ footer p {
         flex-direction: column;
         color: white;
         font-size: 0.9em;
-        background-color: gray;
+        background-color: rgb(53, 53, 53);
     }
     footer p {
         display: flex;

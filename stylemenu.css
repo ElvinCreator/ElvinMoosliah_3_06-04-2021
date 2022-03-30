@@ -76,6 +76,11 @@ article {
     justify-content: space-between;
     border-radius: 20px;
     margin-bottom: 15px;
+    padding: 7px;
+}
+
+.txt {
+    padding-left: 11px;
 }
 
 #entrées {
@@ -186,18 +191,23 @@ footer p {
         justify-content: left;
     }
     .fa-heart {
-        padding-left: 20px;
+        padding-left: 50px;
         font-size: 20px;
         margin-top: 7px;
+    }
+    .atc {
+        padding: 10px;
     }
     .btn {
         display: flex;
         justify-content: center;
-        background-color: rgb(183, 100, 220);
+        background: rgb(172, 72, 179);
         box-shadow: rgb(196, 100, 220);
-        font-size: 25px;
+        font-size: 20px;
         color: white;
-        border-radius: 23px 23px 23px 23px;
+        border-radius: 23px;
+        margin: 20px 94px;
+        padding: 10px 2px;
     }
     #menu {
         display: flex;
@@ -231,6 +241,10 @@ footer p {
         border-radius: 14px 14px 14px 14px;
         background-color: white;
     }
+    #icone {
+        display: none;
+    }
+    .fa-check-circle {}
     footer {
         flex-direction: column;
         color: white;

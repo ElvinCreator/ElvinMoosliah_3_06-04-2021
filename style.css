@@ -90,7 +90,6 @@ header img {
     padding-right: 1.5rem;
     font-size: 20px;
     color: black;
-    padding: 20px;
 }
 
 
@@ -135,6 +134,11 @@ header img {
 .boxrestaurant {
     display: flex;
     flex-direction: column;
+}
+
+.fa-heart {
+    font-size: 23px;
+    margin-top: 12px;
 }
 
 @media screen and (min-width: 700px) {

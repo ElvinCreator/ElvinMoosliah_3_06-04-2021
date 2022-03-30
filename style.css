@@ -81,7 +81,7 @@ header img {
     box-shadow: inset 0px 2px 7px #dfdfdf;
     font-weight: bold;
     color: #353535;
-    font-size: 20px;
+    font-size: 14px;
 }
 
 .localisation i {
@@ -114,7 +114,7 @@ header img {
 
 .number {
     position: absolute;
-    background-color: rgb(183, 100, 220);
+    background-color: rgb(147, 86, 220);
     border-radius: 100%;
     padding: 5px 10px 5px 10px;
     color: white;
@@ -215,7 +215,7 @@ article.resto img:hover {
     color: white;
     text-decoration: none;
     font-size: 100%;
-    background-color: rgb(183, 100, 220);
+    background-color: rgb(213, 108, 219);
     box-shadow: rgb(235, 230, 230);
     padding: 1.2rem;
     border-radius: 23px 23px 23px 23px;
@@ -240,7 +240,7 @@ footer {
     padding-top: 20px;
     color: white;
     font-size: 0.9em;
-    background-color: gray;
+    background-color: rgb(53, 53, 53);
 }
 
 .logofooter {

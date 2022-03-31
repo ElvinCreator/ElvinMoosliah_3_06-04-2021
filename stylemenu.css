@@ -253,6 +253,7 @@ footer p {
     }
     footer p {
         display: flex;
+        color: white;
     }
     .logofooter {
         width: 40%;

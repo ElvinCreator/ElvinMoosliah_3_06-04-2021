@@ -155,23 +155,23 @@ header img {
 }
 
 @media screen and (min-width: 700px) {
-    .boxrestaurant {
+    .boxRestaurant {
         flex-direction: row;
         flex-wrap: wrap;
     }
-    article.resto {
+    article.restau {
         margin-right: 2rem;
     }
 }
 
-article.resto {
+article.restau {
     border-radius: 18px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin-bottom: 2rem;
     max-width: 400px;
 }
 
-article.resto a {
+article.restau a {
     color: black;
 }
 
@@ -249,10 +249,6 @@ p {
     padding-bottom: 20px;
 }
 
-p {
-    font-family: Shrikhand;
-}
-
 footer {
     padding-left: 30px;
     padding-top: 20px;
@@ -267,4 +263,15 @@ footer {
     justify-content: center;
     align-items: center;
     color: white;
+    font-family: Shrikhand;
+}
+
+.fa-utensils {
+    display: flex;
+    position: relative
+}
+
+.fa-hands-helping {
+    display: flex;
+    position: relative;
 }

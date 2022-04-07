@@ -54,7 +54,7 @@ h2 {
 }
 
 .traitVert {
-    text-decoration-color: underline green;
+    text-decoration-style: solid green;
 }
 
 #rubrique {}
@@ -221,6 +221,8 @@ h3 {
 #menu {
     display: flex;
     flex-direction: column;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
 }
 
 .carte {
@@ -266,7 +268,6 @@ span .price {
 footer {
     flex-direction: column;
     color: white;
-    font-size: 0.9em;
     background-color: rgb(53, 53, 53);
 }
 

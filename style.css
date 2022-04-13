@@ -87,11 +87,10 @@ header img {
 
 .localisation {
     background-color: lightgrey;
-    padding: 1.3rem 0;
+    padding: 5px;
     box-shadow: inset 0px 2px 7px #dfdfdf;
     font-weight: bold;
     color: #353535;
-    font-size: 14px;
 }
 
 .localisation i {

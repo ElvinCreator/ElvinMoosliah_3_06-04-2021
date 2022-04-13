@@ -97,8 +97,7 @@ header img {
 .localisation i {
     display: flex;
     justify-content: center;
-    padding-right: 1.5rem;
-    font-size: 14px;
+    padding-right: 5px;
     color: black;
 }
 

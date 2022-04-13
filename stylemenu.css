@@ -54,7 +54,7 @@ h2 {
 }
 
 .traitVert {
-    text-decoration-style: solid green;
+    border-bottom: #99e2d0 solid;
 }
 
 #rubrique {}

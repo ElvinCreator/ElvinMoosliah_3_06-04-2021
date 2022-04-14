@@ -209,7 +209,7 @@ h3 {
 .btn {
     display: flex;
     justify-content: center;
-    background: linear-gradient(#e972da #b661db #be64db);
+    background: linear-gradient(#e972da, #b661db, #be64db);
     box-shadow: rgb(235, 230, 230);
     font-size: 20px;
     color: white;

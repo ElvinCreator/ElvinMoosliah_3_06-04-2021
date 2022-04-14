@@ -122,7 +122,7 @@ header img {
 
 .number {
     position: absolute;
-    background-color: rgb(147, 86, 220);
+    background-color: #9356DC;
     border-radius: 100%;
     padding: 5px 10px 5px 10px;
     color: white;
@@ -136,6 +136,10 @@ header img {
 
 .fa-list {
     color: gray;
+}
+
+.fa-store {
+    color: #9356DC;
 }
 
 .container {

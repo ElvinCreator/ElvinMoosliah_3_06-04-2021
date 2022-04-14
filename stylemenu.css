@@ -207,6 +207,7 @@ h3 {
 }
 
 .btn {
+    max-width: 200px;
     display: flex;
     justify-content: center;
     background: linear-gradient(#e972da, #b661db, #be64db);

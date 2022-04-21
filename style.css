@@ -270,8 +270,7 @@ footer {
 }
 
 .iconeFooter {
-    display: flex;
-    justify-content: left;
+    float: left;
 }
 
 .fa-utensils {

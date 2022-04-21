@@ -91,6 +91,9 @@ header img {
     box-shadow: inset 0px 2px 7px #dfdfdf;
     font-weight: bold;
     color: #353535;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .localisation i {
@@ -190,6 +193,10 @@ article.restau a {
     position: relative;
 }
 
+#sectionRestaurants {
+    background-color: #f6f6f6;
+}
+
 .restauImage img {
     width: 100%;
     height: 190px;
@@ -219,6 +226,10 @@ article.resto img:hover {
     transform: scale(1.05);
 }
 
+.boxRestaurant {
+    margin: 20px;
+}
+
 .boxRestaurant p {
     color: black;
     text-decoration: none;
@@ -232,14 +243,14 @@ article.resto img:hover {
     background-color: chartreuse;
     height: 120%;
     text-decoration: none;
-    margin-top: 20px;
+    margin-right: 100px;
 }
 
 .btn {
     color: white;
     border: none;
     font-size: 100%;
-    background: linear-gradient(#9356DC #FF79DA #9356DC);
+    background: linear-gradient(#FF79DA, #9356DC);
     box-shadow: rgb(235, 230, 230);
     padding: 1.2rem;
     border-radius: 28px 28px 28px 28px;
@@ -271,14 +282,19 @@ footer p {
 }
 
 .iconeFooter {
-    float: left;
+    display: flex;
+    align-items: center;
 }
 
-.logofooter {
+.logoFooter {
     width: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     font-family: Shrikhand;
+}
+
+.lienContact {
+    margin: 0;
 }

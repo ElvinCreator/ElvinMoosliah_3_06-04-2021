@@ -65,6 +65,8 @@ main {
     border-style: none;
     display: flex;
     background-color: #f6f6f6;
+    position: relative;
+    bottom: 85px;
 }
 
 article {
@@ -194,7 +196,7 @@ h3 {
     max-width: 200px;
     display: flex;
     justify-content: center;
-    background: linear-gradient (#b661db, #be64db);
+    background: linear-gradient(#FF79DA, #9356DC);
     box-shadow: rgb(235, 230, 230);
     font-size: 20px;
     color: white;
@@ -249,7 +251,8 @@ span .price {
 }
 
 .iconeFooter {
-    float: left;
+    display: flex;
+    align-items: center;
 }
 
 footer {
@@ -274,7 +277,6 @@ footer p {
     font-family: Shrikhand;
 }
 
-.fa-ustensils {
-    display: flex;
-    justify-content: space-around;
+.lienContact {
+    margin: 0;
 }

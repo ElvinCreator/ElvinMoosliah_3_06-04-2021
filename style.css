@@ -256,8 +256,18 @@ footer {
     padding-left: 30px;
     padding-top: 20px;
     color: white;
-    font-size: 0.9em;
     background-color: rgb(53, 53, 53);
+}
+
+footer p {
+    display: flex;
+    color: white;
+    font-family: Roboto;
+    margin-left: 20px;
+}
+
+.iconeFooter {
+    float: left;
 }
 
 .logofooter {
@@ -267,18 +277,4 @@ footer {
     align-items: center;
     color: white;
     font-family: Shrikhand;
-}
-
-.iconeFooter {
-    float: left;
-}
-
-.fa-utensils {
-    display: flex;
-    position: relative
-}
-
-.fa-hands-helping {
-    display: flex;
-    position: relative;
 }

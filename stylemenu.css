@@ -56,8 +56,6 @@ h2 {
     border-bottom: #99e2d0 solid;
 }
 
-#rubrique {}
-
 main {
     padding: 10px;
 }
@@ -148,19 +146,6 @@ footer {
     font-size: 0.9em;
     background-color: gray;
     padding-top: 20px;
-}
-
-.logoFooter {
-    display: flex;
-    color: white;
-    margin-left: 120px;
-    padding-bottom: 50px;
-    padding-top: 20px;
-}
-
-footer p {
-    display: flex;
-    font-size: 25px;
 }
 
 
@@ -271,18 +256,25 @@ footer {
     flex-direction: column;
     color: white;
     background-color: rgb(53, 53, 53);
+    font-family: Roboto;
 }
 
 footer p {
     display: flex;
     color: white;
+    font-family: Roboto;
+    margin-left: 20px;
 }
 
 .logoFooter {
-    width: 30%;
+    width: 40%;
     display: flex;
-    justify-content: center;
-    align-items: center;
     color: white;
+    margin-left: 20px;
     font-family: Shrikhand;
+}
+
+.fa-ustensils {
+    display: flex;
+    justify-content: space-around;
 }

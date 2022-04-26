@@ -168,6 +168,16 @@ header img {
     margin-top: 12px;
 }
 
+.fa-heart:hover {
+    background: linear-gradient(#FF79DA, #9356DC);
+    font-size: 20px;
+}
+
+.coeur:hover {
+    background-color: red;
+    color: yellow;
+}
+
 @media screen and (min-width: 700px) {
     .boxRestaurant {
         flex-direction: row;

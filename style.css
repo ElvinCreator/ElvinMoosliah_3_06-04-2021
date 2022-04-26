@@ -166,12 +166,13 @@ header img {
 .fa-heart {
     font-size: 23px;
     margin-top: 12px;
+    color: #9356DC;
 }
 
 .fa-heart:hover {
     transition: all;
     background: linear-gradient(#FF79DA, #9356DC);
-    transition-duration: 10s;
+    transition-duration: 2s;
 }
 
 .coeur:hover {

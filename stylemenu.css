@@ -128,7 +128,13 @@ h4 {
     color: black;
 }
 
+.fa-circle-check {
+    color: green;
+    background-color: red;
+}
+
 #icone {
+    color: aqua;
     display: flex;
     justify-content: center;
 }

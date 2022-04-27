@@ -129,12 +129,14 @@ h4 {
 }
 
 .fa-circle-check {
-    color: green;
+    display: flex;
+    justify-content: flex-end;
+    color: red;
     background-color: red;
 }
 
 #icone {
-    color: aqua;
+    color: red;
     display: flex;
     justify-content: center;
 }

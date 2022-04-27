@@ -11,6 +11,50 @@ body {
     box-sizing: border-box;
 }
 
+.loading {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    /*ici tout ce qui concerne votre background linear gradient*/
+    background-color: #f6f6f6;
+    animation: hideLoader 2000ms 1 forwards;
+    animation-delay: 1400ms;
+}
+
+.loading::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*ici votre design de bordure */
+    width: 50px;
+    height: 50px;
+    border: black solid 5px;
+    border-top-color: #9356DC;
+    border-bottom-color: #FF79DA;
+    border-right-color: #99E2D0;
+    border-left-color: #99E2D0;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes hideLoader {
+    100% {
+        opacity: 0;
+        display: none;
+    }
+}
+
+@keyframes spin {
+    100% {
+        transform: translate(-50%, -50%) rotate(180deg);
+    }
+}
+
 img {
     border: 0;
     height: auto;
@@ -125,6 +169,10 @@ header img {
     box-shadow: 0px 2px 15px lightgray;
     border-radius: 20px;
     margin: 10px;
+}
+
+.filtre:hover {
+    color: #f5edff;
 }
 
 .number {

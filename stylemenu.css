@@ -253,10 +253,6 @@ span .price {
     background-color: white;
 }
 
-#icone {
-    display: none;
-}
-
 .iconeFooter {
     display: flex;
     align-items: center;

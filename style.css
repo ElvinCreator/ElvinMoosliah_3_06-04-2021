@@ -173,6 +173,8 @@ header img {
     transition: all;
     background: linear-gradient(#FF79DA, #9356DC);
     transition-duration: 2s;
+    background-clip: text;
+    color: transparent
 }
 
 .coeur:hover {

@@ -150,6 +150,13 @@ header img {
     float: left;
 }
 
+.coeurVide {
+    position: absolute;
+    opacity: 0;
+    background-clip: text;
+    color: transparent;
+}
+
 
 /* Fonctionnement */
 
@@ -213,7 +220,6 @@ header img {
 .fa-heart {
     font-size: 23px;
     margin-top: 12px;
-    color: #9356DC;
 }
 
 .fa-heart:hover {
@@ -222,11 +228,6 @@ header img {
     transition-duration: 2s;
     background-clip: text;
     color: transparent
-}
-
-.coeur:hover {
-    background-color: red;
-    color: yellow;
 }
 
 @media screen and (min-width: 700px) {

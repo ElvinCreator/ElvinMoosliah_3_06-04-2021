@@ -129,29 +129,31 @@ h4 {
 }
 
 .fa-circle-check {
+    position: absolute;
+    background: #99E2D0;
+    border-radius: 0 15px 15px 0;
+    right: 0px;
+    padding: 0 13px;
+    height: 100%;
+}
+
+.fa-circle-check:hover .rubrique {
     display: flex;
-    justify-content: flex-end;
-    color: aqua;
-    background-color: aqua;
-}
-
-.fa-circle-check {
-    animation: rotate-90-cw 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 2s both;
-}
-
-@keyframes rotate-90-cw {
-    0% {
-        transform: rotate(0);
-    }
-    100% {
-        transform: rotate(90deg);
-    }
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    animation: slide-left 0.5s ease;
+    transform-origin: right;
 }
 
 #icone {
-    color: aqua;
-    display: flex;
-    justify-content: center;
+    position: absolute;
+    background: #99E2D0;
+    border-radius: 0 15px 15px 0;
+    right: 0px;
+    padding: 0 13px;
+    height: 100%;
 }
 
 a {

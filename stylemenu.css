@@ -147,12 +147,27 @@ h4 {
     transform-origin: right;
 }
 
+@keyframes slide-left {
+    0% {
+        transform: scaleX(0);
+    }
+    100% {
+        transform: scaleX(-50px);
+    }
+    0% {
+        transform: scaleX(0);
+    }
+    100% {
+        transform: scaleX(-50px);
+    }
+}
+
 #icone {
     position: absolute;
     background: #99E2D0;
     border-radius: 0 15px 15px 0;
     right: 0px;
-    padding: 0 13px;
+    padding: 23px 20px;
     height: 100%;
 }
 

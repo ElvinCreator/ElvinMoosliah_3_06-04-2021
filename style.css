@@ -165,9 +165,10 @@ header img {
     background-clip: text;
     color: transparent;
     transition: all;
+    opacity: 1;
 }
 
-.fa-heart {
+.coeur {
     position: relative;
 }
 

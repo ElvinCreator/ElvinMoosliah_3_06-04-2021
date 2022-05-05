@@ -150,21 +150,25 @@ header img {
     float: left;
 }
 
-.coeurVide {
+.coeurPleins {
     position: absolute;
     opacity: 0;
     background-clip: text;
     color: transparent;
     background: linear-gradient(#FF79DA, #9356DC);
-    display: flex;
+    right: 0;
 }
 
-.coeurVide:hover {
+.coeurPleins:hover {
     transition: 2s;
     background: linear-gradient(#FF79DA, #9356DC);
     background-clip: text;
     color: transparent;
     transition: all;
+}
+
+.fa-heart {
+    position: relative;
 }
 
 

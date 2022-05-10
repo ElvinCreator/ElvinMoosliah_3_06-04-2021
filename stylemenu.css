@@ -49,7 +49,6 @@ h3 {
 h2 {
     font-size: 18px;
     border-style: inherit;
-    text-underline-offset: 6px;
 }
 
 .traitVert {
@@ -80,9 +79,11 @@ article {
     margin-bottom: 15px;
     position: relative;
     overflow: hidden;
+    white-space: nowrap;
+    animation: slideup 1s ease both;
 }
 
-article:hover #icone {
+article:hover .icone {
     right: 0;
     transition: all 1s;
 }
@@ -90,6 +91,8 @@ article:hover #icone {
 .txt {
     padding-left: 11px;
     font-size: 14px;
+    padding-block-start: 3px;
+    white-space: nowrap;
 }
 
 #entrées {
@@ -111,6 +114,8 @@ p {
     font-weight: bold;
     margin: 12px;
     padding-top: 4px;
+    padding-block-start: 3px;
+    white-space: nowrap;
 }
 
 h4 {
@@ -134,20 +139,19 @@ h4 {
     color: black;
 }
 
-.fa-circle-check {
+.fa-check-circle {
     position: absolute;
     background: #99E2D0;
     border-radius: 0 15px 15px 0;
     right: 0px;
+    color: white;
     padding: 0 13px;
     height: 50%;
 }
 
-.fa-circle-check:hover {
+.fa-check-circle:hover {
     display: flex;
-    -ms-flex-pack: center;
     justify-content: center;
-    -ms-flex-align: center;
     align-items: center;
     animation: slide-left 0.5s ease;
     transform-origin: right;
@@ -168,7 +172,28 @@ h4 {
     }
 }
 
-#icone {
+.icone i {
+    margin-right: -60px;
+    width: 59px;
+    border-radius: 0 20px 20px 0;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease;
+    transform: rotate(0);
+}
+
+*,
+ ::before,
+ ::after {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.icone i {
     position: absolute;
     background: #99E2D0;
     border-radius: 0 15px 15px 0;
@@ -288,11 +313,6 @@ h3 {
 .imageRestaurant figure img {
     width: 150%;
     margin: auto;
-}
-
-.rubrique {
-    opacity: inherit;
-    transition-property: 5s;
 }
 
 span .price {

@@ -81,17 +81,12 @@ article {
     overflow: hidden;
     white-space: nowrap;
     animation: slideup 1s ease both;
+    margin-top: 14px;
 }
 
 article:hover .icone {
     right: 0;
     transition: all 1s;
-}
-
-.txt {
-    padding-left: 11px;
-    font-size: 14px;
-    padding-block-start: 3px;
 }
 
 #entrées {
@@ -109,8 +104,15 @@ article:hover .icone {
     border-color: grey;
 }
 
+.p .txt {
+    padding-left: 11px;
+    font-size: 14px;
+    padding-block-start: 3px;
+    font-weight: normal;
+}
+
 p {
-    font-weight: bold;
+    font-weight: 200;
     margin: 12px;
     padding-top: 4px;
     padding-block-start: 3px;
@@ -179,7 +181,7 @@ h4 {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 0.5s ease;
+    transition: all 0.7s ease;
 }
 
 *,

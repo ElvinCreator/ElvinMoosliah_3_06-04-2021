@@ -147,6 +147,8 @@ h4 {
     color: white;
     padding: 0 13px;
     height: 50%;
+    animation: steps(2000ms);
+    transition: 2s;
 }
 
 .fa-check-circle:hover {

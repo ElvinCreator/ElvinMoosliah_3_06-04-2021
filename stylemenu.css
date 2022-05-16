@@ -83,6 +83,38 @@ main {
     }
 }
 
+.containerPlats {
+    animation-name: fade-in;
+    animation-delay: 1s;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+        transform: translateY(10px)
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px)
+    }
+}
+
+.containerDesserts {
+    animation-name: fade-in;
+    animation-delay: 2s;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+        transform: translateY(10px)
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px)
+    }
+}
+
 article {
     background-color: white;
     color: black;

@@ -68,6 +68,21 @@ main {
     bottom: 85px;
 }
 
+.containerEntrée {
+    animation-name: fade-in;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+        transform: translateY(10px)
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px)
+    }
+}
+
 article {
     background-color: white;
     color: black;
@@ -89,6 +104,11 @@ article:hover .icone {
     transition: all 1s;
 }
 
+article:hover .fa-check-circle {
+    transform: rotate(360deg);
+    transition: transform 1s;
+}
+
 #entrées {
     margin-right: 20px;
 }
@@ -104,7 +124,7 @@ article:hover .icone {
     border-color: grey;
 }
 
-.p .txt {
+.txt {
     padding-left: 11px;
     font-size: 14px;
     padding-block-start: 3px;
@@ -140,58 +160,8 @@ h4 {
 }
 
 .fa-check-circle {
-    position: absolute;
-    background: #99E2D0;
-    border-radius: 0 15px 15px 0;
-    right: 0px;
     color: white;
-    padding: 0 13px;
-    height: 50%;
-    animation: steps(2000ms);
-    transition: 2s;
-}
-
-.fa-check-circle:hover {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    animation: slide-left 0.5s ease;
-    transform-origin: right;
-}
-
-@keyframes slide-left {
-    0% {
-        transform: scaleX(0);
-    }
-    100% {
-        transform: scaleX(-50px);
-    }
-    0% {
-        transform: scaleX(0);
-    }
-    100% {
-        transform: scaleX(-50px);
-    }
-}
-
-.fa-check-circle:hover {
-    margin-right: -60px;
-    width: 59px;
-    border-radius: 0 20px 20px 0;
-    font-size: 20px;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.7s ease;
-}
-
-*,
- ::before,
- ::after {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
+    font-size: 19px;
 }
 
 .icone {

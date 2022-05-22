@@ -85,7 +85,7 @@ main {
 
 .containerPlats {
     animation-name: fade-in;
-    animation-delay: 1s;
+    animation-delay: 0.5s;
 }
 
 @keyframes fade-in {
@@ -101,7 +101,7 @@ main {
 
 .containerDesserts {
     animation-name: fade-in;
-    animation-delay: 2s;
+    animation-delay: 1s;
 }
 
 @keyframes fade-in {
@@ -157,7 +157,6 @@ article:hover .fa-check-circle {
 }
 
 .txt {
-    padding-left: 11px;
     font-size: 14px;
     padding-block-start: 3px;
     font-weight: normal;
@@ -184,6 +183,7 @@ h4 {
 #price {
     display: flex;
     align-items: flex-end;
+    padding-bottom: 20px;
 }
 
 #price span {
@@ -194,6 +194,7 @@ h4 {
 .fa-check-circle {
     color: white;
     font-size: 19px;
+    padding-top: 25px;
 }
 
 .icone {
@@ -203,6 +204,8 @@ h4 {
     right: -50px;
     width: 50px;
     height: 70px;
+    margin: 0;
+    padding-bottom: 20px;
 }
 
 #menuGrid {

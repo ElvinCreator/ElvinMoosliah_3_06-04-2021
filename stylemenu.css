@@ -157,13 +157,15 @@ article:hover .fa-check-circle {
 }
 
 .txt {
-    font-size: 14px;
+    font-size: 16px;
     padding-block-start: 3px;
     font-weight: normal;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 p {
-    font-weight: 200;
+    font-weight: bold;
     margin: 12px;
     padding-top: 4px;
     padding-block-start: 3px;
@@ -184,11 +186,17 @@ h4 {
     display: flex;
     align-items: flex-end;
     padding-bottom: 20px;
+    text-overflow: ellipsis;
 }
 
 #price span {
-    font: bold;
     color: black;
+    padding-left: 20px;
+    align-self: flex-end;
+    margin-left: 5px;
+    margin-right: 20px;
+    padding-bottom: 15px;
+    font-weight: bold;
 }
 
 .fa-check-circle {
@@ -350,6 +358,7 @@ footer p {
     font-family: Roboto;
     margin-left: 20px;
     font-size: 17px;
+    position: relative;
 }
 
 .logoFooter {

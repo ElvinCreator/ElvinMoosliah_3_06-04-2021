@@ -153,6 +153,7 @@ header img {
 .coeurPleins {
     position: absolute;
     opacity: 0;
+    -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
     background: linear-gradient(#FF79DA, #9356DC);
@@ -162,6 +163,7 @@ header img {
 .coeurPleins:hover {
     transition: 2s;
     background: linear-gradient(#FF79DA, #9356DC);
+    -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
     transition: all;
@@ -246,6 +248,7 @@ header img {
     background: linear-gradient(#FF79DA, #9356DC);
     transition-duration: 2s;
     background-clip: text;
+    -webkit-background-clip: text;
     color: transparent
 }
 
@@ -369,7 +372,6 @@ footer p {
     display: flex;
     color: white;
     font-family: Roboto;
-    margin-left: 20px;
 }
 
 .iconeFooter {
@@ -378,9 +380,6 @@ footer p {
 }
 
 .logoFooter {
-    width: 30%;
-    display: flex;
-    justify-content: center;
     align-items: center;
     color: white;
     font-family: Shrikhand;
@@ -388,4 +387,12 @@ footer p {
 
 .lienContact {
     margin: 0;
+}
+
+.fa-utensils {
+    margin-right: 10px;
+}
+
+.fa-hands-helping {
+    margin-right: 10px;
 }

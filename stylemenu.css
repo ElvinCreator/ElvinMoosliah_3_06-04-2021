@@ -166,8 +166,41 @@ article:hover .fa-check-circle {
     white-space: nowrap;
 }
 
-.article:hover .txt {
+article:hover .txt {
     width: 80%;
+}
+
+.price {
+    position: relative;
+    display: flex;
+    padding-bottom: 20px;
+    padding-bottom: 15px;
+    margin-right: 12px;
+    text-decoration: none;
+    white-space: nowrap;
+    animation: slideup 1s ease both;
+    justify-content: space-between;
+}
+
+article:hover .price {
+    transition: all 2s;
+    left: 0;
+}
+
+article:hover .price {
+    animation-name: check-in;
+    animation-delay: 0.4s;
+}
+
+@keyframes check-in {
+    0% {
+        opacity: 0;
+        transform: translateY(10px)
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px)
+    }
 }
 
 p {
@@ -186,18 +219,6 @@ h4 {
 .btn {
     justify-content: center;
     padding: 1.2rem;
-}
-
-.price {
-    display: flex;
-    padding-bottom: 20px;
-    text-overflow: ellipsis;
-    padding-bottom: 15px;
-    margin-right: 12px;
-}
-
-.article:hover .price {
-    transform-origin: 10px;
 }
 
 .price span {
@@ -338,7 +359,7 @@ h3 {
     margin: auto;
 }
 
-span .price {
+.span .price {
     font-weight: bold;
     color: black;
 }
@@ -358,24 +379,31 @@ footer {
     color: white;
     background-color: rgb(53, 53, 53);
     font-family: Roboto;
+    padding-left: 30px;
+    padding-top: 20px;
 }
 
 footer p {
     display: flex;
     color: white;
     font-family: Roboto;
-    margin-left: 20px;
     font-size: 17px;
     position: relative;
 }
 
 .logoFooter {
-    display: flex;
     color: white;
-    margin-left: 20px;
     font-family: Shrikhand;
 }
 
 .lienContact {
     margin: 0;
+}
+
+.fa-utensils {
+    margin-right: 10px;
+}
+
+.fa-hands-helping {
+    margin-right: 10px;
 }

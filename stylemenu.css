@@ -187,15 +187,15 @@ h4 {
     align-items: flex-end;
     padding-bottom: 20px;
     text-overflow: ellipsis;
+    margin-left: 5px;
+    margin-right: 20px;
+    padding-bottom: 15px;
 }
 
 #price span {
     color: black;
     padding-left: 20px;
     align-self: flex-end;
-    margin-left: 5px;
-    margin-right: 20px;
-    padding-bottom: 15px;
     font-weight: bold;
 }
 

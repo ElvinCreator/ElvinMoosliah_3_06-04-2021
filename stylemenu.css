@@ -157,6 +157,7 @@ article:hover .fa-check-circle {
 }
 
 .txt {
+    width: 90%;
     font-size: 16px;
     padding-block-start: 3px;
     font-weight: normal;
@@ -187,23 +188,20 @@ h4 {
     padding: 1.2rem;
 }
 
-#price {
+.price {
     display: flex;
-    align-items: flex-end;
     padding-bottom: 20px;
     text-overflow: ellipsis;
-    margin-left: 5px;
-    margin-right: 20px;
     padding-bottom: 15px;
+    margin-right: 12px;
 }
 
 .article:hover .price {
     transform-origin: 10px;
 }
 
-#price span {
+.price span {
     color: black;
-    padding-left: 20px;
     align-self: flex-end;
     font-weight: bold;
 }

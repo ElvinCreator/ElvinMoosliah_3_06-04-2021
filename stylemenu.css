@@ -40,6 +40,7 @@ h3 {
 #imageRestaurant figure img {
     height: 260px;
     object-fit: cover;
+    width: 100%;
 }
 
 #imageRestaurant:hover {

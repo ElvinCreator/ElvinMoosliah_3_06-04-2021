@@ -301,6 +301,7 @@ h3 {
     border-radius: 28px;
     margin: 20px 94px;
     padding: 10px 2px;
+    border: none;
 }
 
 .btn:hover {

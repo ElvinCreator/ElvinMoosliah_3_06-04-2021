@@ -183,24 +183,8 @@ article:hover .txt {
 }
 
 article:hover .price {
-    transition: all 2s;
-    left: 0;
-}
-
-article:hover .price {
-    animation-name: check-in;
-    animation-delay: 0.4s;
-}
-
-@keyframes check-in {
-    0% {
-        opacity: 0;
-        transform: translateY(10px)
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0px)
-    }
+    transition: all 1s;
+    transform: translateX(-60px);
 }
 
 p {

@@ -231,8 +231,6 @@ header img {
 
 /* Restaurant */
 
-#sectionrestaurant {}
-
 .boxRestaurant {
     display: flex;
     flex-direction: column;

@@ -265,11 +265,14 @@ footer {
     align-items: center;
     justify-content: center;
     margin-left: 60px;
+    padding-top: 20px;
 }
 
 .fa-arrow-left {
     color: black;
     font-size: 25px;
+    padding-left: 20px;
+    padding-top: 20px;
 }
 
 h3 {
